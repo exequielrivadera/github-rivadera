@@ -26,7 +26,8 @@ body{
 .main-home{
     grid-column: 4 / 7;
     display: flex; 
-    justify-content: space-between;     
+    justify-content: space-between; 
+    
 }
 
 .main-home li{
@@ -40,7 +41,7 @@ body{
 }
 
 .nav-home .main-home a{
-    text-decoration: none;
+    text-decoration: none;   
 }
 
 .nav-home .shop{
@@ -80,7 +81,21 @@ body{
 .movin-on{    
     margin: 30px;
     width: 400px; 
-    height: 400px; 
+    height: 400px;
+    animation-name: movin-on;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes movin-on{
+    from{
+        transform:  scale(0);
+    }
+
+    to{
+        transform: scale(1);
+    }
 }
 
 .recomendados{
