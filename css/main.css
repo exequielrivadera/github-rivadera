@@ -1,0 +1,940 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS HOME */
+
+.nav-home{
+    background-color: rgb(34, 40, 49);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.img-home{
+    width: 100px;
+    grid-column: 2 / 3;    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(57, 62, 70);
+}
+
+.main-home{
+    grid-column: 4 / 7;
+    display: flex; 
+    justify-content: space-between;     
+}
+
+.main-home li{
+    list-style: none;  
+}
+
+.menu{
+    width: 25px;
+    height: 25px;
+    display: none;
+}
+
+.nav-home .main-home a{
+    text-decoration: none;
+}
+
+.nav-home .shop{
+    width: 25px;
+    height: 25px;
+    grid-column: 8 / 9;
+}
+
+.mainHome{
+    margin: 5vh auto;    
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.infoMain{
+    margin: 20px;
+    display: grid;    
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;    
+}
+
+.mainHome .movinOnSpotify{
+    display: block;
+    margin: 6px auto; 
+}
+
+.mainHome .movinOnTexto{
+    margin-bottom: 20px;
+    text-align: center;
+    display: grid;    
+}
+
+.movin-on{    
+    margin: 30px;
+    width: 400px; 
+    height: 400px; 
+}
+
+.recomendados{
+    display: grid;
+    justify-content: center;
+}
+
+.recomendados .recomendaciones{
+    color: rgb(238, 238, 238);
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    display: flex;   
+}
+
+.recomendados .samples{
+    color: rgb(238, 238, 238);
+    margin-top: 100px;
+    justify-content: center;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    display: flex;   
+}
+
+.imgMovinOn{
+    display: flex;
+    justify-content: center;
+}
+
+.recomendados .imgMain{
+    display: flex;
+}
+
+.recomendados .epic{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.recomendados .bang{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.recomendados .shave{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.mainSamples{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+
+.imgSample{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;    
+}
+
+
+footer{
+    text-align: center;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+    color: black;
+    text-transform: uppercase;    
+} 
+
+footer .spotify-img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* CSS CONTACTO */
+
+.contactoNav{
+    background-color: rgb(34, 40, 49);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.contactoLinks{
+    grid-column: 4 / 7;
+    list-style: none;
+    display: flex; 
+    justify-content: space-between; 
+    background-color: rgb(34, 40, 49); 
+}
+
+.contactoLinks li a{
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.mainContacto{
+    margin: 4em;
+    text-align: left;
+    color: rgb(255, 211, 105);
+}
+
+.textoContactoDuda{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 10px;
+    text-align: left;
+    color: rgb(238, 238, 238);
+}
+
+span{
+    color: rgb(255, 211, 105);
+}
+
+.textoContactoDemo{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 60px;
+    text-align: left;
+    color: rgb(238, 238, 238);
+}
+
+.consulta{
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.demo{
+    margin: 10px;
+}
+
+.botonConsultanos{
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 20px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 3px 11px -5px;
+    cursor: pointer;
+}
+
+.botonDemos{
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 20px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 3px 11px -5px;
+    cursor: pointer;
+}
+
+.encuentranos{
+    margin: 60px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    color: rgb(238, 238, 238);
+}
+
+.redes{
+    margin: 60px;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.instagram{
+    width: 30px;
+}
+
+.facebook{
+    width: 30px;
+}
+
+.soundcloud{
+    width: 30px;
+}
+
+.sub{
+    margin: 60px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    color: rgb(238, 238, 238);
+    
+}
+
+.form{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw; 
+    align-items: left;   
+}
+
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    color: white;
+
+}
+
+.imgContacto{
+    margin-top: 60px;
+    width: 30px;
+    height: 30px;
+}
+
+/* CSS PRODUCTOS */ 
+
+.productos{
+    background-color: rgb(34, 40, 49);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.productosLink{
+    grid-column: 4 / 7;
+    list-style: none;
+    display: flex; 
+    justify-content: space-between; 
+    background-color: rgb(34, 40, 49); 
+}
+
+.productosLink li a{
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.lanzadosRecientes{
+    margin: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em;    
+}
+
+.cancionSoundcloud{
+    margin: 30px;
+    justify-content: center;
+}
+
+.textoExplorar{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em;  
+}
+
+.explorarCanciones{
+    margin: 30px;
+    justify-content: center;
+}
+
+.freeDownload{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.cancionesFree{
+    display: flex;
+    margin: 10px;
+    
+    justify-content: space-around;
+}
+
+.proximos{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.proximosLanzamientos{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imgBootleg{
+    width: 300px;
+    height: 300px;
+}
+
+.pie-de-pagina{
+    margin-top: 150px;
+}
+
+.imgProductos{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* CSS HISTORIA */ 
+
+.historia{
+    background-color: rgb(34, 40, 49);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.historiaLinks{
+    grid-column: 4 / 7;
+    list-style: none;
+    display: flex; 
+    justify-content: space-between; 
+    background-color: rgb(34, 40, 49); 
+}
+
+.historiaLinks li a{
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.quienesSomos{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.parrafoHistoria{
+    margin: 15px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 211, 105);
+}
+
+.queHacemos{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.parrafoQueHacemos{
+    margin: 15px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 211, 105); 
+}
+
+.support{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.supporting{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dj-support{
+    margin-top: 3em;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.imgSupport{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgJuicy{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.imgLuca{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.imgMars{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.more{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em;  
+}
+
+.imgHistoria{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* CSS EVENTOS */
+
+.eventos{
+    background-color: rgb(34, 40, 49);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+
+.eventosLinks{
+    grid-column: 4 / 7;
+    list-style: none;
+    display: flex; 
+    justify-content: space-between; 
+    background-color: rgb(34, 40, 49); 
+}
+
+.eventosLinks li a{
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.proximas{
+    margin-top: 3em;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 2em;
+    text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.parrafoProximas{
+    margin: 15px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 211, 105); 
+}
+
+.eventosContenedor{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.eventoUno{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.eventoDos{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.eventoTres{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.eventoCuatro{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.eventoCinco{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.booking{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+    font-size: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.formularioEventos{
+    display: flex;
+    justify-content: center;
+}
+
+.imgEventos{
+    width: 30px;
+    height: 30px;
+}
+
+/* MEDIAQUERIES */
+
+@media screen and (max-width: 600px){
+    .nav-home{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        align-items: center;
+    }
+
+    .nav-home .img-home{
+        margin: 9px auto;
+        grid-column: 1 / 9;
+    }
+
+    .nav-home .main-home{
+        margin: 10px;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+
+    .nav-home .shop{
+        display: none;
+    }
+
+    .mainHome .movinOnSpotify{
+        display: block;
+        margin: 6px auto; 
+    }
+
+
+
+    .mainHome .infoMain{
+        margin-top: 0px;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        grid-row: 2;
+    }
+
+    .mainHome .movinOnTexto{
+        text-align: center;
+    }
+
+    .imgMovinOn{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .newsInfo{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .recomendados .imgMain{
+        display: grid;
+    }
+    .recomendados .recomendaciones{
+        display: grid;
+        margin-top: 60px;
+        color: rgb(238, 238, 238);    
+        font-style: italic;
+        font-family: 'Bebas Neue', cursive;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+    .recomendados .epic{
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+        align-items: right;
+    }
+    
+    .recomendados .bang{
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+        align-items: center;
+    }
+    
+    .recomendados .shave{
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+        align-items: center;
+    }
+
+    /* --- MEDIAQUERIES CONTACTO */
+
+     .contactoNav .img-home{
+        margin: 9px auto;
+        grid-column: 1 / 9;
+    }
+
+    .contactoNav .contactoLinks{
+        margin: 10px;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+    
+    .contactoLinks{
+        grid-column: 4 / 7;
+        list-style: none;
+        display: flex; 
+        justify-content: space-between; 
+        background-color: rgb(34, 40, 49); 
+    }
+    
+    .contactoLinks li a{
+        text-decoration: none;
+        justify-content: space-around;
+    }
+    
+    .mainContacto{
+        margin: 4em;
+        text-align: center;
+        color: rgb(255, 211, 105);
+    }
+    
+    .textoContactoDuda{
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 10px;
+        text-align: center;
+        color: rgb(238, 238, 238);
+    }
+    
+    span{
+        color: rgb(255, 211, 105);
+    }
+    
+    .textoContactoDemo{
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 60px;
+        text-align: center;
+        color: rgb(238, 238, 238);
+    }
+    
+    .consulta{
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px;
+        display: flex;
+        align-items: left;
+    }
+    
+    .demo{
+        margin: 10px;
+    }
+
+    .consulta{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botonConsultanos{
+        font-family: 'Bebas Neue', cursive;
+        padding: 10px 20px;
+        background-color: rgb(238, 238, 238);
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        box-shadow: 1px 3px 11px -5px;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .botonDemos{
+        font-family: 'Bebas Neue', cursive;
+        padding: 10px 20px;
+        background-color: rgb(238, 238, 238);
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        box-shadow: 1px 3px 11px -5px;
+        cursor: pointer;
+    }
+    
+    .encuentranos{
+        margin: 60px;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        color: rgb(238, 238, 238);
+    }
+    
+    .redes{
+        margin: 60px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .instagram{
+        width: 30px;
+    }
+    
+    .facebook{
+        width: 30px;
+    }
+    
+    .soundcloud{
+        width: 30px;
+    }
+    
+    .sub{
+        margin: 10px;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        color: rgb(238, 238, 238);
+        
+    }
+    
+    .formularioContacto{
+        display: flex;
+        justify-content: center;   
+    }
+    
+    /* --- MEDIAQUERIES PRODUCTOS */
+
+    .productos .img-home{
+        margin: 9px auto;
+        grid-column: 1 / 9;
+    }
+
+    .productos .productosLink{
+        margin: 10px;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+    
+    .productosLink{
+        grid-column: 4 / 7;
+        list-style: none;
+        display: flex; 
+        justify-content: space-between; 
+        background-color: rgb(34, 40, 49); 
+    }
+
+    .productosLink li a{
+        text-decoration: none;
+        justify-content: space-around;
+    }
+
+    .cancionesFree{
+        display: grid;
+    }
+
+    .goodbye{
+        margin: 10px;
+    }
+
+    .get-up{
+        margin: 10px;
+    }
+
+    .work-it{
+        margin: 10px;
+    }
+
+    /* --- MEDIAQUERIES HISTORIA */
+
+    .historia .img-home{
+        margin: 9px auto;
+        grid-column: 1 / 9;
+    }
+
+    .historia .historiaLinks{
+        margin: 10px;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+    
+    .historiaLinks{
+        grid-column: 4 / 7;
+        list-style: none;
+        display: flex; 
+        justify-content: space-between; 
+        background-color: rgb(34, 40, 49); 
+    }
+
+    .imgSupport{
+        margin: 10px;
+        display: grid;
+        justify-content: center;
+    }
+
+    /* --- MEDIAQUERIES EVENTOS */
+
+    .eventos .img-home{
+        margin: 9px auto;
+        grid-column: 1 / 9;
+    }
+
+    .eventos .eventosLinks{
+        margin: 10px;
+        text-align: center;
+        grid-column: 1 / 9;
+    }
+    
+    .eventosLinks{
+        grid-column: 4 / 7;
+        list-style: none;
+        display: flex; 
+        justify-content: space-between; 
+        background-color: rgb(34, 40, 49); 
+    }
+
+    .eventosContenedor{
+        margin-top: 60px;
+        display: grid;
+        justify-content: center;
+    }
+
+}
+
+
+
+    
