@@ -14,11 +14,12 @@
 </head>
 <body>
     
+    <!-- MENU HAMBURGUESA -->
     <header class="container">
         <div class="row">
-            <nav class="navbar navbar-expand-lg $gray-700">
-                <div class="container-fluid">
-                <a class="navbar-brand" href="#"> <img class="imagenLogo" src="./img/rivaside-logo.png" alt=""></a>
+            <nav class="navbar navbar-expand-lg col-11">
+                <div class="container-fluid ">
+                <a class="navbar-brand col-sm-9" href="#"> <img class="imagenLogo" src="./img/rivaside-logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -71,27 +72,32 @@
     <section class="recomendados">
         <h3 class="recomendaciones">Recomendaciones</h3>
 
-        <div class="imgMain">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/epic.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/bang.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/shave.png" class="d-block w-100" alt="...">
-                  </div>
+        <!-- CARRUSEL -->
+        <div class="container">
+
+        <div class="row">
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/epic.png" class="d-block w-100" alt="epic">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/bang.png" class="d-block w-100" alt="bang">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/shave.png" class="d-block w-100" alt="shave">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
         </div>
 

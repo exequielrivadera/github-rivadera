@@ -31,6 +31,10 @@
     height: 100px;
 }
 
+.row{
+    justify-content: center;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(57, 62, 70);
