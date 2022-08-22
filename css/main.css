@@ -80,8 +80,8 @@ body{
 }
 
 .infoMain{
-    margin: 20px;
-    display: grid;    
+    display: flex;
+    align-items: center;    
     color: rgb(238, 238, 238);
     text-align: center;
     font-style: italic;
@@ -98,6 +98,29 @@ body{
     margin-bottom: 20px;
     text-align: center;
     display: grid;    
+}
+
+.imgMovinOn{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/movin-on.jpg);
+}
+
+.infoMain{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.leer-mas{
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 20px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 3px 11px -5px;
+    cursor: pointer;
 }
 
 .movin-on{    
@@ -120,6 +143,30 @@ body{
     }
 }
 
+.destacados{    
+    color: rgb(238, 238, 238);
+    margin: 100px;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    display: flex; 
+}
+
+.cardsArtistas{
+    display: flex;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card:hover{
+    transform: translateY(-3%);
+}
+
+
 .recomendados{
     display: grid;
     justify-content: center;
@@ -127,13 +174,13 @@ body{
 
 .recomendados .recomendaciones{
     color: rgb(238, 238, 238);
-    margin-top: 200px;
+    margin-top: 100px;
     justify-content: center;
     text-align: center;
     font-style: italic;
     font-family: 'Bebas Neue', cursive;
     text-shadow: black 0.1em 0.1em 0.2em;
-    display: flex;   
+    display: flex;  
 }
 
 .recomendados .samples{
@@ -572,12 +619,79 @@ span{
     background-color: rgb(34, 40, 49); 
 }
 
-.eventosLinks li a{
-    text-decoration: none;
-    justify-content: space-around;
+.eventoUno{
+    margin-block: 13px;
+    width: 100%
 }
 
-.proximas{
+.parrafoUno{
+    text-align: center;
+}
+
+.rowUno{
+    display: flex;
+    align-items: center;
+}
+
+.eventoDos{
+    margin-block: 13px;
+    width: 100%
+}
+
+.parrafoDos{
+    text-align: center;
+}
+
+.rowDos{
+    display: flex;
+    align-items: center;
+}
+
+.eventoTres{
+    margin-block: 13px;
+    width: 100%
+}
+
+.parrafoTres{
+    text-align: center;
+}
+
+.rowTres{
+    display: flex;
+    align-items: center;
+}
+
+.eventoCuatro{
+    margin-block: 13px;
+    width: 100%
+}
+
+.parrafoCuatro{
+    text-align: center;
+}
+
+.rowCuatro{
+    display: flex;
+    align-items: center;
+}
+
+.eventoCinco{
+    margin-block: 13px;
+    width: 100%
+}
+
+.parrafoCinco{
+    text-align: center;
+}
+
+.rowCinco{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* .proximas{
     margin-top: 3em;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -591,53 +705,17 @@ span{
     text-align: center;
     font-style: italic;
     color: rgb(255, 211, 105); 
-}
+} 
 
-.eventosContenedor{
-    margin-top: 60px;
+.parrafoUno{
+    margin: 20px;
+    text-align: center;
+    color: rgb(238, 238, 238);
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: center;
 
-.eventoUno{
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: rgb(238, 238, 238);
-    font-size: 1.5em;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
+} */
 
-.eventoDos{
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: rgb(238, 238, 238);
-    font-size: 1.5em;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.eventoTres{
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: rgb(238, 238, 238);
-    font-size: 1.5em;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.eventoCuatro{
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: rgb(238, 238, 238);
-    font-size: 1.5em;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-.eventoCinco{
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    color: rgb(238, 238, 238);
-    font-size: 1.5em;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
 
 .booking{
     margin-top: 100px;
@@ -943,7 +1021,7 @@ span{
         justify-content: center;
     }
 
-    /* --- MEDIAQUERIES EVENTOS */
+    /* --- MEDIAQUERIES EVENTOS
 
     .eventos .img-home{
         margin: 9px auto;
@@ -968,7 +1046,7 @@ span{
         margin-top: 60px;
         display: grid;
         justify-content: center;
-    }
+    }  */
 
 }
 

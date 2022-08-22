@@ -52,13 +52,14 @@
         
     </header>
 
-    <main class="mainHome">        
-               
+    <main class="mainHome"> 
+        
+        
         <div class="infoMain">
             <div>
-                <p class="movinOnTexto">"Movin' On"</p>        
+                <h2 class="movinOnTexto">"Movin' On"</h2>        
                 <p class="newsInfo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium repellendus a voluptatem porro, sapiente eius! Cumque, laboriosam rerum! Libero voluptas voluptate cumque, repellat facilis nostrum ab quasi totam quod illo?. </p>
-                <p class="newsInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam deserunt quaerat, ut vitae libero perspiciatis qui unde a numquam culpa atque, id magni reprehenderit! Necessitatibus eius architecto debitis perspiciatis!</p>
+                <button class="leer-mas"><a href="https://open.spotify.com/track/7oHOsUHAWQddHgE4SJWrv2?si=7a821a03750a48d9" target="_blank">Escuchar</a></button>
             </div>             
             
         </div>
@@ -71,37 +72,80 @@
     </main>   
     
     <section class="recomendados">
-        <h3 class="recomendaciones">Recomendaciones</h3>
 
-        <div class="imgMain">
+      <div class="artistas">
+          <h3 class="destacados">Artistas destacados</h3>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/epic.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/bang.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/shave.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+          <div class="cardsArtistas">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/d-upside.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">D-Upside</h5>
+              <p class="card-text">DJ/Productor fundador de Rivaside Records. Los genero musicales en los que se destaca es el Bass House, Progressive House y Groove House.</p>
+              <a href="https://open.spotify.com/artist/6PCtdMmLlxHEOidjcMlk4i?si=awChsKViTBO8brLfO4EBbg" target="_blank" class="btn btn-secondary">Spotify</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./img/andsick.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ANDSICK</h5>
+              <p class="card-text">Productor oriundo de Lima, Peru. Los generos musicales en los que se destaca es el Progressive House</p>
+              <a href="https://open.spotify.com/artist/7KRcp1ggrwbwhcytEAiLuC?si=6UkLskNeTbmWFDbgXZnzTA" target="_blank" class="btn btn-secondary">Spotify</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./img/bareon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bareon</h5>
+              <p class="card-text">DJ/Productor de Toulouse, Francia. Los generos musicales en los que se destaca es el Bass House y Progressive House</p>
+              <a href="https://open.spotify.com/artist/79N62DK6zX8ScNlCRKp1FR?si=T9GFZooLRjWc9hCqWaHpDQ" target="_blank" class="btn btn-secondary">Spotify</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./img/nighbrs.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nighbrs</h5>
+              <p class="card-text">Productores de Włoszczowa, Polonia. Los generos musicales en los que se destacan son Future House y Big Room.</p>
+              <a href="https://open.spotify.com/artist/6ItKhDBtgjM9YehE1pqT3f?si=XIlg3xuRRMyMzBbjrge1og&nd=1" target="_blank" class="btn btn-secondary">Spotify</a>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <h3 class="recomendaciones">Recomendaciones</h3>
+
+      <div class="imgMain">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/epic.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/bang.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/shave.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </div>
 
         <h3 class="samples">Sample packs</h3>
         <div class="mainSamples">
